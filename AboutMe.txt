@@ -1,0 +1,5 @@
+Hello!
+
+I'm Minttu Lumitähti, a second year student in interactive media path, living in Tampere. I'm most into illustrating and comics and so far I've been in visual design and animation minors in TAMK, and I'm planning on doing animations as well as illustrating as my job in the future.
+
+I have only teeny tiny bit of knowledge of web design before TAMK - I used to host my own website with pure HTML since I was 10, but after turning 15 I slowly stopped. Through this minor I've grown more familiar with CSS that I now find myself enjoying more than I anticipated. I'm still very new to js or any other coding language, but I'm interested to learn, even the bare basics if nothing more.
