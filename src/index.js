@@ -7,7 +7,7 @@ import  Login from './components/Login';
 import Register from './components/Register';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import firebase, { auth } from './firebase.js';
-import { fireEvent } from '@testing-library/react';
+
 
 class AppRouter extends React.Component {
   constructor(props) {
