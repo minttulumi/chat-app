@@ -30,12 +30,12 @@ class Login extends React.Component {
         return (
             <div className="auth-container">
                 <h1>Login</h1>
-                <p>Login to access your account</p>
+                <p>Login to access your account.</p><br></br>
                 {error && <p className="error-message">{error.message}</p>}
                 <form onSubmit={this.handleSubmit}>
-                    <label htmlFor="email">Email address</label>
-                    <input type="text" name="email" id="email" value={email} onChange={this.handleChange}></input>
-                    <label htmlFor="password">Password</label>
+                    <label htmlFor="email">Email address </label>
+                    <input type="text" name="email" id="email" value={email} onChange={this.handleChange}></input><br></br>
+                    <label htmlFor="password">Password </label>
                     <input
                         type="password"
                         name="password"
@@ -44,9 +44,11 @@ class Login extends React.Component {
                         onChange={this.handleChange}
                         >
                     </input>
+                    <br></br>
                     <button className="submit">Login</button>
                     <p>Don't have an account? <Link className="login-btn" to="/register">Register here</Link>.</p>
                 </form>
+
             </div>
         );
     }

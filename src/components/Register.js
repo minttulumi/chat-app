@@ -55,6 +55,7 @@ class Register extends React.Component {
                     <button className="submit">Get started</button>
                     <p>Already have an account? <Link className="login-btn" to="/login">Login here</Link></p>
                 </form>
+
             </div>
         );
     }

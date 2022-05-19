@@ -1,6 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: 'Gill Sans', 'Gill Sans MT';
+  font-family:'Courier New', Courier, monospace;
+  background-color:#b2b6c5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,26 +16,37 @@ code {
 }
 
 .main-nav{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 1.2em;
   text-align: right;
   margin-bottom: 1.5em;
   padding: .5em 1em;
-  background-color: #1b1b1b;
+  background-color: #2d2b49;
+  box-shadow: 1px 5px 10px rgb(79, 71, 90);
 }
 
 .main-nav a{
   display: inline-block;
   padding: 1em 1em;
+  color: #7574db;
 }
 
 a {
-  color: #fff;
+  color: #7574db;
   text-decoration: none;
   transition: all .25s ease;
+  font-weight: bolder;
 }
 
 a:hover {
-  color: rgb(255, 123, 0);
+  color: rgb(97, 170, 212);
   text-decoration: underline;
+}
+
+.chatbox {
+  background-color: #433a5e;
+  padding: 1.2em 1.2em 2em 2em;
+  width: 800px;
+  border-radius: 0 1em 1em 0;
+  color: #b2b6c5;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import firebase from '../firebase';
 
+
 class Chatbox extends React.Component {
     constructor(props) {
         super(props);
@@ -38,8 +39,8 @@ render() {
                         const postDate = new Date(chat.date);
                         return(
                             <li key={chat.id}>
-                                <em>{postDate.getDate() + '/' + (postDate.getMonth()+1)}</em>
-                                <strong>{chat.user}:</strong>
+                                <strong class="user">{chat.user} ♥</strong> <em class="time">{postDate.getDate() + '/' + (postDate.getMonth()+1)}</em>
+                                <br></br>
                                 {chat.message}
                             </li>
                         )

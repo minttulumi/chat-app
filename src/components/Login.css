@@ -1,7 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
     text-align: center;
 }
 
+.auth-container {
+    text-align: center;
+    margin-left: 35%;
+    width: 500px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    margin-top: 1em;
+}
+
+input {
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+button {
+    width: 100px;
+}
+
 h1 {
     padding: .5em;
+    font-weight: bolder;
+    text-align: center;
 }

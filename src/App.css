@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
@@ -7,14 +11,21 @@
   pointer-events: none;
 }
 
+h1 {
+  font-size: larger;
+  text-align: left;
+  color: #2d2b49;
+}
+
 /*self-added, can be deleted later*/
 img {
-  opacity: 50%;
   border-radius: 10em;
+  width: 4em;
+  transition: .5s;
 }
 
 img:hover {
-  opacity: 100%;
+  opacity: 50%;
 }
 /* -- */
 
@@ -49,18 +60,46 @@ img:hover {
 }
 
 button {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 1em;
   color: aliceblue;
   border: none;
   padding: .5em 1em;
-  margin: 5px;
-  background-color: #b1b1b1;
+  margin: 1em;
+  background-color: #7574db;
   transition: .2s;
   border-radius: 2em;
 }
 
+.but {
+  font-weight: bold;
+  border-radius: 0em 10em 10em 0;
+  width: 200px;
+}
+
 button:hover {
-  background-color: rgb(255, 123, 0);
+  background-color: rgb(97, 170, 212);
+}
+
+input {
+  padding: .2em;
+}
+
+.chat {
+  width: 300px;
+}
+
+.user {
+  color: #7574db;
+}
+
+.time {
+  color: #7574db;
+  font-style: normal;
+  font-size: x-small;
+}
+
+li {
+  margin-top: 1em;
 }
 

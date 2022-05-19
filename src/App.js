@@ -34,20 +34,21 @@ class App extends React.Component {
 
 render() {
   return (
-    <div className="App">
-      <h1>Chat app</h1>
+    <div className="App ml-20 p-10">
+      <h1>✉ Chat app</h1>
       {this.props.user && 
-        <div className="allow-chat">
+        <div className="allow-chat text-left ml-20 p-10">
           <Chatbox />
           <form className="message-form" onSubmit={this.onSubmit}>
-          <input 
+          <input
+            class="chat"
             type="text"
             name="message"
             id="message"
             value={this.state.message}
             placeholder="Enter a message..."
             onChange={this.onChange} />
-          <button>Send</button>
+          <button class="but">send</button>
           </form>
         </div>
       }
